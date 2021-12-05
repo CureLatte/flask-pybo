@@ -1,5 +1,5 @@
 from config.default import *
-from loggin.config import dictConfig
+from logging.config import dictConfig
 
 
 SQLALCHEMY_DATABASE_URI = 'sqlite:///{}'.format(os.path.join(BASE_DIR, 'pybo.db'))
